@@ -1,0 +1,939 @@
+2025-03-19 16:38:49,769 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.47:8000
+2025-03-19 16:38:49,769 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:38:49,770 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 16:38:50,264 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 16:38:50,279 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 16:39:21,868 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:21] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 16:39:21,991 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:21] "[33mGET /assets/css/global.css HTTP/1.1[0m" 404 -
+2025-03-19 16:39:22,024 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:22] "[33mGET /assets/css/navbar.css HTTP/1.1[0m" 404 -
+2025-03-19 16:39:22,074 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:22] "[33mGET /assets/js/main.js HTTP/1.1[0m" 404 -
+2025-03-19 16:39:23,249 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:23] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 16:39:23,432 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:23] "[33mGET /assets/css/global.css HTTP/1.1[0m" 404 -
+2025-03-19 16:39:23,442 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:23] "[33mGET /assets/css/navbar.css HTTP/1.1[0m" 404 -
+2025-03-19 16:39:23,456 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:23] "[33mGET /assets/js/main.js HTTP/1.1[0m" 404 -
+2025-03-19 16:39:25,560 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:39:25] "[33mGET /modules/tools/ HTTP/1.1[0m" 404 -
+2025-03-19 16:41:20,202 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.47:8000
+2025-03-19 16:41:20,202 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:41:20,204 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 16:41:20,512 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 16:41:20,524 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 16:41:33,532 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:33] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 16:41:33,657 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:33] "[33mGET /assets/css/global.css HTTP/1.1[0m" 404 -
+2025-03-19 16:41:33,662 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:33] "[33mGET /assets/css/navbar.css HTTP/1.1[0m" 404 -
+2025-03-19 16:41:33,665 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:33] "[33mGET /assets/js/main.js HTTP/1.1[0m" 404 -
+2025-03-19 16:41:37,205 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:37] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 16:41:37,309 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:37] "[33mGET /assets/css/global.css HTTP/1.1[0m" 404 -
+2025-03-19 16:41:37,318 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:37] "[33mGET /assets/css/navbar.css HTTP/1.1[0m" 404 -
+2025-03-19 16:41:37,328 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:37] "[33mGET /assets/js/main.js HTTP/1.1[0m" 404 -
+2025-03-19 16:41:38,087 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:38] "[33mGET /modules/tools/ HTTP/1.1[0m" 404 -
+2025-03-19 16:41:42,582 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:42] "[33mGET /assets/css/navbar.css HTTP/1.1[0m" 404 -
+2025-03-19 16:41:43,953 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:43] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 16:41:44,041 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:44] "[33mGET /assets/css/global.css HTTP/1.1[0m" 404 -
+2025-03-19 16:41:44,044 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:44] "[33mGET /assets/css/navbar.css HTTP/1.1[0m" 404 -
+2025-03-19 16:41:44,063 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:41:44] "[33mGET /assets/js/main.js HTTP/1.1[0m" 404 -
+2025-03-19 16:44:06,265 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 16:44:06,344 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 16:44:07,067 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 16:44:07,079 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 16:44:20,989 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.47:8000
+2025-03-19 16:44:20,989 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:44:20,990 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 16:44:21,579 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 16:44:21,613 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 16:44:43,849 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:43] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 16:44:43,961 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:43] "GET /assets/css/global.css HTTP/1.1" 200 -
+2025-03-19 16:44:43,962 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:43] "GET /assets/css/navbar.css HTTP/1.1" 200 -
+2025-03-19 16:44:44,001 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:44] "GET /assets/js/main.js HTTP/1.1" 200 -
+2025-03-19 16:44:45,716 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:45] "GET /modules/tools/ HTTP/1.1" 200 -
+2025-03-19 16:44:45,820 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:45] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 16:44:45,827 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:45] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 16:44:45,828 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:45] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 16:44:48,575 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:48] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 16:44:48,651 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:48] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 16:44:48,657 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:48] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 16:44:48,667 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:48] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 16:44:48,669 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:48] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 16:44:48,724 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:48] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 16:44:53,359 - __main__ - ERROR - Erreur lors de la récupération des informations vidéo: module 'ffmpeg' has no attribute 'probe'
+2025-03-19 16:44:53,362 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:44:53] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-03-19 16:47:56,044 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.47:8000
+2025-03-19 16:47:56,044 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 16:47:56,046 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 16:47:56,325 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 16:47:56,333 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 16:49:05,194 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:05] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 16:49:05,309 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:05] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 16:49:05,312 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:05] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 16:49:05,316 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:05] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 16:49:05,318 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:05] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 16:49:05,326 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:05] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 16:49:57,609 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:49:57] "POST /upload HTTP/1.1" 200 -
+2025-03-19 16:52:42,755 - __main__ - ERROR - Erreur lors de la conversion: invalid literal for int() with base 10: ''
+2025-03-19 16:52:42,756 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:52:42] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 16:55:42,774 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:42] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 16:55:42,854 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:42] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 16:55:42,866 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:42] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 16:55:42,880 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:55:42] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 16:56:19,182 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 16:56:19,255 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 16:56:20,085 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 16:56:20,095 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 16:56:24,678 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:24] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 16:56:24,782 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:24] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 16:56:24,788 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:24] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 16:56:24,797 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:24] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 16:56:24,804 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:24] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 16:56:27,100 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:27] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 16:56:27,223 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:27] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 16:56:27,231 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:27] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 16:56:27,234 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:27] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 16:56:27,239 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:27] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 16:56:27,252 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:56:27] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 16:57:05,067 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:05] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 16:57:05,176 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:05] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 16:57:05,177 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:05] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 16:57:05,187 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:05] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 16:57:05,187 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:05] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 16:57:05,200 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:05] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 16:57:13,855 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:13] "POST /upload HTTP/1.1" 200 -
+2025-03-19 16:57:30,549 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[swscaler @ 0x7f8899b0e000] [Eval @ 0x7ff7b0c31e88] Undefined constant or missing '(' in 'force_original_aspect_ratio\=decrease'
+[swscaler @ 0x7f8899b0e000] Unable to parse option value "force_original_aspect_ratio\=decrease"
+[AVFilterGraph @ 0x7f8899a05f00] Error initializing filters
+Failed to set value '[0]scale=-1:1080[s0];[s0]scale=-2:ih:force_original_aspect_ratio\\\\\\=decrease[s1];[s1]pad=ih*9/16:ih:(iw-ow)/2:(ih-oh)/2[s2]' for option 'filter_complex': Invalid argument
+Error parsing global options: Invalid argument
+
+2025-03-19 16:57:30,550 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 16:57:30] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:02:34,884 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[swscaler @ 0x7f8986300000] [Eval @ 0x7ff7b6888ea8] Undefined constant or missing '(' in 'force_original_aspect_ratio\=decrease'
+[swscaler @ 0x7f8986300000] Unable to parse option value "force_original_aspect_ratio\=decrease"
+[AVFilterGraph @ 0x7f8986206f40] Error initializing filters
+Failed to set value '[0]scale=iw:-2:force_original_aspect_ratio\\\\\\=decrease[s0];[s0]pad=iw:iw*9/16:(iw-ow)/2:(ih-oh)/2[s1]' for option 'filter_complex': Invalid argument
+Error parsing global options: Invalid argument
+
+2025-03-19 17:02:34,886 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:02:34] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:07:12,478 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 17:07:12,557 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 17:07:13,033 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 17:07:13,046 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 17:12:39,174 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:39] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:12:39,317 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:39] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:39,322 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:39] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:12:39,340 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:39] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:41,406 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:41] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:12:41,497 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:41] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:41,499 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:41] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:41,504 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:41] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:12:41,505 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:41] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:43,946 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:43] "GET /modules/tools/video/ HTTP/1.1" 200 -
+2025-03-19 17:12:44,043 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:44] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:44,046 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:44] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:44,047 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:44] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 17:12:44,060 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:44] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:12:44,087 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:44] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 17:12:52,722 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:52] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:12:52,828 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:52] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:52,829 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:52] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:52,846 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:52] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 17:12:52,894 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:52] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:12:52,902 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:52] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 17:12:58,548 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:12:58] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:14:07,081 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> scale:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_1 @ 0x7fd62791b880] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_1 @ 0x7fd62791b880] Failed to configure input pad on Parsed_pad_1
+[fc#0 @ 0x7fd627811f80] Error reinitializing filters!
+[fc#0 @ 0x7fd627811f80] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7fd627811f80] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fd627a0a380] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7fd627a0a380] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fd627a0a380] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7fd627a09840] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:14:07,085 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:14:07] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:16:35,269 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 17:16:35,351 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 17:16:35,836 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 17:16:35,844 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 17:17:29,687 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:29] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:17:29,845 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:29] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:17:29,848 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:29] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:17:29,855 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:29] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:17:31,812 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:31] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:17:31,877 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:31] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:17:31,879 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:31] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:17:31,881 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:31] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:17:31,882 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:31] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:17:33,283 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:33] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:17:33,387 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:33] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:17:33,395 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:33] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:17:33,399 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:33] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:17:33,408 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:33] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 17:17:33,409 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:33] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 17:17:39,008 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:39] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:17:58,481 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:58] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:17:58,505 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:17:58] "GET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_171746_808a4749.mp4 HTTP/1.1" 200 -
+2025-03-19 17:24:50,196 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:50] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:24:50,273 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:50] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:24:50,275 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:50] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:24:50,331 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:50] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:24:52,005 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:52] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:24:52,103 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:52] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:24:52,108 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:52] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:24:52,109 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:52] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:24:52,112 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:52] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:24:53,785 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:53] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:24:53,897 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:53] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:24:53,900 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:53] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:24:53,904 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:53] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:24:53,909 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:53] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 17:24:53,924 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:53] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 17:24:59,565 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:24:59] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:25:11,311 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> pad:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_0 @ 0x7f9118115800] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_0 @ 0x7f9118115800] Failed to configure input pad on Parsed_pad_0
+[fc#0 @ 0x7f911770dc80] Error reinitializing filters!
+[fc#0 @ 0x7f911770dc80] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7f911770dc80] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7f9118107700] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7f9118107700] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7f9118107700] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7f911771ab00] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:25:11,312 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:11] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:25:20,746 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> pad:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_0 @ 0x7fee628055c0] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_0 @ 0x7fee628055c0] Failed to configure input pad on Parsed_pad_0
+[fc#0 @ 0x7fee61f30f40] Error reinitializing filters!
+[fc#0 @ 0x7fee61f30f40] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7fee61f30f40] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fee61f34f80] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7fee61f34f80] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fee61f34f80] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7fee61f34080] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:25:20,747 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:25:20] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:28:16,296 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 17:28:16,402 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 17:28:17,001 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 17:28:17,015 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 17:29:36,940 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:36] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,023 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,046 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,048 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,765 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,877 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,879 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,884 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:29:37,886 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:37] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:29:39,597 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:39] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:29:39,687 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:39] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:29:39,719 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:39] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:29:39,719 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:39] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:29:39,720 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:39] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 17:29:39,729 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:29:39] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 17:30:24,619 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:30:24] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:31:31,681 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> scale:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_1 @ 0x7f9a1b828a40] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_1 @ 0x7f9a1b828a40] Failed to configure input pad on Parsed_pad_1
+[fc#0 @ 0x7f9a1af0e700] Error reinitializing filters!
+[fc#0 @ 0x7f9a1af0e700] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7f9a1af0e700] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7f9a1b826380] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7f9a1b826380] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7f9a1b826380] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7f9a1b825900] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:31:31,684 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:31:31] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:31:53,698 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> scale:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_1 @ 0x7fe99081e7c0] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_1 @ 0x7fe99081e7c0] Failed to configure input pad on Parsed_pad_1
+[fc#0 @ 0x7fe98ff12040] Error reinitializing filters!
+[fc#0 @ 0x7fe98ff12040] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7fe98ff12040] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fe98ff14340] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7fe98ff14340] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fe98ff14340] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7fe98ff12940] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:31:53,700 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:31:53] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:32:09,250 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:32:09] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:32:39,175 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:32:39] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:35:17,768 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 17:35:17,852 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 17:35:18,768 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 17:35:18,778 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 17:35:52,229 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:52] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:35:52,336 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:52] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 17:35:52,345 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:52] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:35:52,349 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:52] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 17:35:52,362 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:52] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:35:52,384 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:52] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:35:57,657 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:57] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:35:57,750 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:57] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:35:57,752 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:57] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:35:57,761 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:35:57] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:36:01,840 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:01] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:36:01,970 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:01] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:36:01,970 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:01] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:36:01,987 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:01] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:36:01,991 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:01] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:36:03,851 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:03] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:36:03,948 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:03] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:36:03,951 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:03] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:36:03,963 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:03] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:36:03,966 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:03] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 17:36:03,980 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:36:03] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 17:38:03,749 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:38:03] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:41:03,608 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:03] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:41:03,633 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:03] "GET /assets/css/global.css HTTP/1.1" 200 -
+2025-03-19 17:41:03,641 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:03] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:03,642 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:03] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:41:05,043 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:05] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:41:05,157 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:05] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:05,164 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:05] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:41:05,165 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:05] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:08,084 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:08] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:41:08,184 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:08] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:08,192 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:08] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:41:08,199 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:08] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:08,199 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:08] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:45,210 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:45] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:41:45,409 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:45] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:45,413 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:45] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:45,415 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:45] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 17:41:45,419 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:45] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:41:45,420 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:41:45] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 17:43:42,091 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:43:42] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:46:33,625 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> scale:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_1 @ 0x7fc0eff49ec0] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_1 @ 0x7fc0eff49ec0] Failed to configure input pad on Parsed_pad_1
+[fc#0 @ 0x7fc0eff115c0] Error reinitializing filters!
+[fc#0 @ 0x7fc0eff115c0] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7fc0eff115c0] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fc0eff14600] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7fc0eff14600] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fc0eff14600] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7fc0eff13940] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:46:33,627 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:46:33] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:46:39,648 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> scale:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_1 @ 0x7fe3ee911280] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_1 @ 0x7fe3ee911280] Failed to configure input pad on Parsed_pad_1
+[fc#0 @ 0x7fe3eea20140] Error reinitializing filters!
+[fc#0 @ 0x7fe3eea20140] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7fe3eea20140] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fe3edf1de00] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7fe3edf1de00] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7fe3edf1de00] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7fe3edf1e880] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:46:39,652 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:46:39] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:46:59,549 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:46:59] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:48:17,203 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:48:17] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:51:04,992 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:04] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:51:05,103 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:05] "GET /assets/css/global.css HTTP/1.1" 200 -
+2025-03-19 17:51:05,104 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:05] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:05,109 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:05] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:51:10,121 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:10] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:51:10,224 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:10] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:10,224 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:10] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:10,237 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:10] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:10,237 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:10] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:51:11,228 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:11] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 17:51:11,324 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:11] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:11,326 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:11] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:11,328 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:11] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:51:16,061 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:16] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 17:51:16,169 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:16] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:16,171 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:16] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:16,173 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:16] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:16,174 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:16] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:51:18,488 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:18] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:51:18,595 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:18] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:18,596 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:18] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:51:18,610 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:18] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:51:18,611 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:18] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 17:51:18,613 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:18] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 17:51:25,401 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:51:25] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:53:24,370 - __main__ - ERROR - Erreur FFmpeg lors de la conversion: ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/7.1.1_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'temp/uploads/Enregistrement_de_lecran_2025-03-19_a_16.29.34.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-19T15:29:36.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: MacBookPro14,2
+    com.apple.quicktime.software: macOS 13.7.4 (22H420)
+    com.apple.quicktime.creationdate: 2025-03-19T16:29:35+0100
+  Duration: 00:00:40.02, start: 0.000000, bitrate: 606 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x674 [SAR 1:1 DAR 540:337], 572 kb/s, 56.88 fps, 60 tbr, 6k tbn (default)
+      Metadata:
+        creation_time   : 2025-03-19T15:29:36.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : H.264
+Stream mapping:
+  Stream #0:0 (h264) -> scale:default
+  pad:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[Parsed_pad_1 @ 0x7f8401206500] Padded dimensions cannot be smaller than input dimensions.
+[Parsed_pad_1 @ 0x7f8401206500] Failed to configure input pad on Parsed_pad_1
+[fc#0 @ 0x7f8400712a80] Error reinitializing filters!
+[fc#0 @ 0x7f8400712a80] Task finished with error code: -22 (Invalid argument)
+[fc#0 @ 0x7f8400712a80] Terminating thread with return code -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7f840071ff80] Could not open encoder before EOF
+[vost#0:0/libx264 @ 0x7f840071ff80] Task finished with error code: -22 (Invalid argument)
+[vost#0:0/libx264 @ 0x7f840071ff80] Terminating thread with return code -22 (Invalid argument)
+[out#0/mp4 @ 0x7f8400714f40] Nothing was written into output file, because at least one of its streams received no packets.
+frame=    0 fps=0.0 q=0.0 Lsize=       0KiB time=N/A bitrate=N/A speed=N/A    
+Conversion failed!
+
+2025-03-19 17:53:24,372 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:24] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 17:53:43,775 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:43] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:53:43,953 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:43] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:53:43,959 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:43] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:53:43,964 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:43] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:53:43,973 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:43] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 17:53:43,977 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:43] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 17:53:46,356 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:46] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:53:50,199 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:53:50] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:54:02,341 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:02] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 17:54:02,486 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:02] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 17:54:02,487 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:02] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 17:54:02,491 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:02] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 17:54:02,492 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:02] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 17:54:02,494 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:02] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 17:54:05,715 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:05] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:54:08,827 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:54:08] "POST /upload HTTP/1.1" 200 -
+2025-03-19 17:55:55,875 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 17:55:55] "POST /convert HTTP/1.1" 200 -
+2025-03-19 17:59:21,018 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 17:59:21,111 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 17:59:21,646 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 17:59:21,657 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 18:03:27,160 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:27] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:03:27,296 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:27] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:27,298 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:27] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:03:27,299 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:27] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:30,818 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:30] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 18:03:30,976 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:30] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:30,977 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:30] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:30,985 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:30] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:03:30,991 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:30] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:32,269 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:32] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:03:32,361 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:32] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:32,376 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:32] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:32,391 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:32] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 18:03:32,391 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:32] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:03:32,442 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:32] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:03:40,068 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:40] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:03:49,548 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:49] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:03:49,665 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:49] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:49,668 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:49] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:49,668 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:49] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:03:49,671 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:49] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:03:49,691 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:49] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 18:03:56,130 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:03:56] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:04:25,530 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:04:25] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:08:15,320 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:15] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:08:15,412 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:15] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:08:15,413 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:15] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:08:15,416 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:15] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:08:18,055 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:18] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 18:08:18,155 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:18] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:08:18,159 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:18] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:08:18,163 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:18] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:08:18,166 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:18] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 18:08:20,688 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:20] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:08:20,790 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:20] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:08:20,791 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:20] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:08:20,796 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:20] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 18:08:20,805 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:20] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:08:20,817 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:20] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:08:26,976 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:26] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:08:56,485 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:08:56] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:09:20,307 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:09:20] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:15:35,922 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:35] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:15:36,019 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:36] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:36,020 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:36] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:36,022 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:36] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:15:38,069 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:38] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 18:15:38,148 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:38] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:38,152 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:38] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:38,156 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:38] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:15:38,157 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:38] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:40,255 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:40] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:15:40,335 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:40] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:40,336 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:40] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:40,344 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:40] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:15:40,348 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:40] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:15:40,376 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:40] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:15:46,861 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:15:46] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:16:05,560 - __main__ - ERROR - Erreur lors de la conversion: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-03-19 18:16:05,562 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:16:05] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2025-03-19 18:19:09,237 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:19:09] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:19:09,316 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:19:09] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:19:09,332 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:19:09] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:19:09,347 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:19:09] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:19:09,348 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:19:09] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:19:09,359 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:19:09] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:19:14,987 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:19:14] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:20:30,200 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:20:30] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:20:30,239 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:20:30] "[33mGET /converted/undefined HTTP/1.1[0m" 404 -
+2025-03-19 18:21:16,198 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:21:16] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:21:16,219 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:21:16] "[33mGET /converted/undefined HTTP/1.1[0m" 404 -
+2025-03-19 18:22:48,400 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:48] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:22:48,519 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:48] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:22:48,524 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:48] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:22:48,529 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:48] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:22:48,565 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:48] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:22:48,566 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:48] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:22:55,999 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:22:55] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:23:59,497 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:23:59] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:30:07,120 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 18:30:07,211 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 18:30:07,662 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 18:30:07,671 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 18:32:45,201 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:45] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:32:45,298 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:45] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:32:45,301 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:45] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:32:45,309 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:45] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:32:50,588 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:50] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 18:32:50,690 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:50] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:32:50,691 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:50] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:32:50,703 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:50] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:32:50,707 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:50] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 18:32:54,834 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:54] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:32:55,020 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:55] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:32:55,022 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:55] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:32:55,034 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:55] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 18:32:55,035 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:55] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:32:55,066 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:32:55] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:33:01,765 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:33:01] "POST /upload HTTP/1.1" 200 -
+2025-03-19 18:34:09,305 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:34:09] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:34:09,410 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:34:09] "[35m[1mGET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183339_bd0f6011.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:34:20,032 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:34:20] "[35m[1mGET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183339_bd0f6011.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:35:20,595 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:35:20] "GET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183339_bd0f6011.mp4 HTTP/1.1" 200 -
+2025-03-19 18:35:54,366 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:35:54] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:35:54,464 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:35:54] "[35m[1mGET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183527_8c4e92e4.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:36:45,324 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:36:45] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:36:45,351 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:36:45] "[35m[1mGET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183631_c71a4c43.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:36:55,436 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:36:55] "GET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183631_c71a4c43.mp4 HTTP/1.1" 200 -
+2025-03-19 18:37:26,601 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:37:26] "POST /convert HTTP/1.1" 200 -
+2025-03-19 18:37:26,620 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:37:26] "[35m[1mGET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183658_baf955a8.mp4 HTTP/1.1[0m" 206 -
+2025-03-19 18:37:32,087 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:37:32] "GET /download/Enregistrement_de_lecran_2025-03-19_a_16.29.34_20250319_183658_baf955a8.mp4 HTTP/1.1" 200 -
+2025-03-19 18:51:18,435 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:18] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:51:18,580 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:18] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:18,582 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:18] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:51:18,584 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:18] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:21,060 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:21] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 18:51:21,118 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:21] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:21,160 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:21] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:21,162 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:21] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:51:21,176 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:21] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:23,229 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:23] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:51:23,337 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:23] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:23,340 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:23] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:23,343 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:23] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:51:23,345 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:23] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:51:23,351 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:23] "GET /assets/css/video-tool.css HTTP/1.1" 200 -
+2025-03-19 18:51:28,772 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:28] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:51:28,871 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:28] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:28,873 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:28] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:51:28,888 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:28] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:51:28,893 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:28] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 18:51:28,894 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:51:28] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:13,017 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:13] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:53:13,268 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:13] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:13,303 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:13] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:13,308 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:13] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:53:16,297 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:16] "[36mGET /modules/agent/ HTTP/1.1[0m" 304 -
+2025-03-19 18:53:16,415 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:16] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:16,425 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:16] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:16,426 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:16] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:53:16,427 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:16] "[36mGET /assets/css/agent.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:19,604 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:19] "[33mGET /modules/agent/tasks HTTP/1.1[0m" 404 -
+2025-03-19 18:53:35,067 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:35] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:53:35,175 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:35] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:35,176 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:35] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:35,186 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:35] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:53:37,576 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:37] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 18:53:37,680 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:37] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:37,680 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:37] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:37,685 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:37] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:53:37,690 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:37] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:39,861 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:39] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:53:39,944 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:39] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:39,946 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:39] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:39,960 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:39] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:53:39,971 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:39] "GET /assets/js/video-tool.js HTTP/1.1" 200 -
+2025-03-19 18:53:39,972 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:39] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:58,473 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:58] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:53:58,576 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:58] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:58,581 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:58] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:58,583 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:58] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:53:58,588 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:58] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:53:58,620 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:53:58] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 18:55:45,920 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 18:55:46,052 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 18:55:46,691 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 18:55:46,702 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 18:56:13,980 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/venv/lib/python3.13/site-packages/ffmpeg/__init__.py', reloading
+2025-03-19 18:56:14,033 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 18:56:14,809 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 18:56:14,843 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 18:56:29,609 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.47:8000
+2025-03-19 18:56:29,609 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:56:29,611 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 18:56:30,063 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 18:56:30,076 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 18:56:54,026 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:54] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:56:54,085 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:54] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:54,090 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:54] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:54,101 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:54] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:56:54,977 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:54] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 18:56:55,006 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:55] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:55,018 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:55] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:55,019 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:55] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:56:56,555 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:56] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 18:56:56,653 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:56] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:56,656 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:56] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:56,658 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:56] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:56:56,666 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:56] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:58,015 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:58] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 18:56:58,120 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:58] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:58,121 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:58] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:58,154 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:58] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 18:56:58,179 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:58] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 18:56:58,184 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 18:56:58] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 18:58:45,371 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/venv/lib/python3.13/site-packages/ffmpeg/__init__.py', reloading
+2025-03-19 18:58:45,512 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 18:58:46,182 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 18:58:46,193 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 18:59:17,705 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 18:59:17,757 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 18:59:18,340 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 18:59:18,349 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 18:59:41,709 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.47:8000
+2025-03-19 18:59:41,709 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 18:59:41,712 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 18:59:42,224 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 18:59:42,276 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 19:01:52,832 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:01:52] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 19:01:52,927 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:01:52] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 19:01:52,930 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:01:52] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 19:01:52,930 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:01:52] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 19:01:52,933 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:01:52] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 19:01:52,936 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:01:52] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 19:02:02,102 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:02] "[36mGET / HTTP/1.1[0m" 304 -
+2025-03-19 19:02:02,226 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:02] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:02,230 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:02] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:02,232 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:02] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 19:02:05,960 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:05] "[36mGET /modules/tools/ HTTP/1.1[0m" 304 -
+2025-03-19 19:02:06,081 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:06] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:06,085 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:06] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:06,086 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:06] "[36mGET /assets/css/tools.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:06,146 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:06] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 19:02:07,898 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:07] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 19:02:07,999 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:07] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:08,011 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:08] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:08,012 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:08] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 19:02:08,012 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:08] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 19:02:08,021 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:02:08] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -
+2025-03-19 19:03:46,358 - werkzeug - INFO -  * Detected change in '/Users/kiwi/Desktop/oToBase/server.py', reloading
+2025-03-19 19:03:46,455 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 19:03:47,258 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 19:03:47,274 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 19:04:07,031 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.47:8000
+2025-03-19 19:04:07,031 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-19 19:04:07,034 - werkzeug - INFO -  * Restarting with stat
+2025-03-19 19:04:07,653 - werkzeug - WARNING -  * Debugger is active!
+2025-03-19 19:04:07,696 - werkzeug - INFO -  * Debugger PIN: 521-528-038
+2025-03-19 19:04:21,779 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:04:21] "[36mGET /modules/tools/video/ HTTP/1.1[0m" 304 -
+2025-03-19 19:04:21,994 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:04:21] "[36mGET /assets/css/video-tool.css HTTP/1.1[0m" 304 -
+2025-03-19 19:04:22,005 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:04:22] "[36mGET /assets/css/global.css HTTP/1.1[0m" 304 -
+2025-03-19 19:04:22,011 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:04:22] "[36mGET /assets/css/navbar.css HTTP/1.1[0m" 304 -
+2025-03-19 19:04:22,021 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:04:22] "[36mGET /assets/js/main.js HTTP/1.1[0m" 304 -
+2025-03-19 19:04:22,024 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 19:04:22] "[36mGET /assets/js/video-tool.js HTTP/1.1[0m" 304 -

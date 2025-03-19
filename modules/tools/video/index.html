@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oToBase - Conversion Vidéo</title>
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/video-tool.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="sidebar-overlay"></div>
+    
+    <div class="sidebar">
+        <div class="logo">
+            <h1>oToBase</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/" class="nav-link"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="/modules/tools" class="nav-link active"><i class="fas fa-tools"></i> TOOLS</a></li>
+                <li><a href="/modules/agent" class="nav-link"><i class="fas fa-robot"></i> AGENT</a></li>
+                <li><a href="/modules/agent-ia" class="nav-link"><i class="fas fa-brain"></i> AGENT IA</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="top-bar">
+        <h1 class="page-title">Conversion Vidéo</h1>
+    </div>
+
+    <div class="main-content">
+        <div class="video-tool">
+            <!-- Zone de téléversement -->
+            <div class="upload-zone" id="dropZone">
+                <div class="upload-content">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h2>Déposez votre vidéo ici</h2>
+                    <p>ou</p>
+                    <label class="upload-button">
+                        Parcourir
+                        <input type="file" id="fileInput" accept="video/*" hidden>
+                    </label>
+                    <p class="upload-info">Formats acceptés : MP4, MOV, AVI, MKV</p>
+                    <p class="upload-info">Taille maximale : 2 GB</p>
+                </div>
+            </div>
+
+            <!-- Zone de prévisualisation -->
+            <div class="preview-zone hidden" id="previewZone">
+                <div class="video-preview">
+                    <video id="videoPreview" controls>
+                        Votre navigateur ne supporte pas la lecture vidéo.
+                    </video>
+                </div>
+                <div class="video-info">
+                    <h3>Informations sur la vidéo</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="label">Nom :</span>
+                            <span class="value" id="videoName">-</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Durée :</span>
+                            <span class="value" id="videoDuration">-</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Taille :</span>
+                            <span class="value" id="videoSize">-</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Format :</span>
+                            <span class="value" id="videoFormat">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Options de conversion -->
+            <div class="conversion-options hidden" id="conversionOptions">
+                <h3>Options de conversion</h3>
+                
+                <!-- Préréglages pour réseaux sociaux -->
+                <div class="presets-grid">
+                    <button class="preset-button" data-preset="instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                        <small>1080x1920, MP4</small>
+                    </button>
+                    <button class="preset-button" data-preset="tiktok">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                        <small>1080x1920, MP4</small>
+                    </button>
+                    <button class="preset-button" data-preset="youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                        <small>1920x1080, MP4</small>
+                    </button>
+                    <button class="preset-button" data-preset="facebook">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                        <small>1280x720, MP4</small>
+                    </button>
+                    <button class="preset-button" data-preset="twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                        <small>1280x720, MP4</small>
+                    </button>
+                </div>
+
+                <!-- Options avancées -->
+                <div class="advanced-options">
+                    <h4>Options avancées</h4>
+                    <div class="options-grid">
+                        <div class="option-item">
+                            <label>Format de sortie</label>
+                            <select id="outputFormat">
+                                <option value="mp4">MP4</option>
+                                <option value="mov">MOV</option>
+                                <option value="webm">WebM</option>
+                                <option value="gif">GIF</option>
+                            </select>
+                        </div>
+                        <div class="option-item">
+                            <label>Qualité</label>
+                            <select id="quality">
+                                <option value="high">Haute</option>
+                                <option value="medium">Moyenne</option>
+                                <option value="low">Basse</option>
+                            </select>
+                        </div>
+                        <div class="option-item">
+                            <label>Résolution</label>
+                            <select id="resolution">
+                                <option value="original">Originale</option>
+                                <option value="1080p">1080p</option>
+                                <option value="720p">720p</option>
+                                <option value="480p">480p</option>
+                            </select>
+                        </div>
+                        <div class="option-item">
+                            <label>Format d'image</label>
+                            <select id="aspectRatio">
+                                <option value="original">Original</option>
+                                <option value="16:9">16:9</option>
+                                <option value="9:16">9:16</option>
+                                <option value="4:3">4:3</option>
+                                <option value="1:1">1:1 (Carré)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bouton de conversion -->
+                <div class="conversion-actions">
+                    <button id="convertButton" class="convert-button">
+                        <i class="fas fa-cog"></i>
+                        Convertir
+                    </button>
+                    <button id="resetButton" class="reset-button">
+                        <i class="fas fa-redo"></i>
+                        Nouvelle vidéo
+                    </button>
+                </div>
+            </div>
+
+            <!-- Barre de progression -->
+            <div class="progress-zone hidden" id="progressZone">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress" id="progressBar"></div>
+                    </div>
+                    <div class="progress-info">
+                        <span id="progressText">0%</span>
+                        <span id="progressStatus">En attente...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/video-tool.js"></script>
+</body>
+</html> 

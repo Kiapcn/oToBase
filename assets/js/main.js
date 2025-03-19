@@ -18,32 +18,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const sidebar = document.querySelector('.sidebar');
     const overlay = document.querySelector('.sidebar-overlay');
     
-    // Fonction pour basculer le menu
     function toggleMenu() {
         sidebar.classList.toggle('active');
         overlay.classList.toggle('active');
-        menuToggle.classList.toggle('active');
     }
 
-    // Gestionnaire pour le bouton de menu
-    if (menuToggle) {
-        menuToggle.addEventListener('click', (e) => {
-            e.stopPropagation();
-            toggleMenu();
-        });
-    }
+    menuToggle.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
 
-    // Gestionnaire pour l'overlay
-    if (overlay) {
-        overlay.addEventListener('click', () => {
-            toggleMenu();
-        });
-    }
-
-    // Fermer le menu lors du clic sur un lien
-    navLinks.forEach(link => {
+    // Fermer le menu quand on clique sur un lien
+    document.querySelectorAll('.sidebar a').forEach(link => {
         link.addEventListener('click', () => {
-            if (window.innerWidth <= 768) {
+            if (sidebar.classList.contains('active')) {
                 toggleMenu();
             }
         });
