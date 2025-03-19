@@ -3,92 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>oToBase - Votre plateforme d'outils et d'IA</title>
-    
-    <!-- Styles -->
+    <title>oToBase</title>
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
-    
-    <!-- Font Awesome pour les icônes -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Barre latérale -->
-        <aside class="sidebar">
-            <div class="logo">
-                <h1>oToBase</h1>
-            </div>
-            
-            <nav>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">
-                            <i class="fas fa-home"></i>
-                            Accueil
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/modules/tools/" class="nav-link">
-                            <i class="fas fa-tools"></i>
-                            TOOLS
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/modules/agent/" class="nav-link">
-                            <i class="fas fa-robot"></i>
-                            AGENT
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/modules/agent-ia/" class="nav-link">
-                            <i class="fas fa-brain"></i>
-                            AGENT IA
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </aside>
-
-        <!-- Header -->
-        <header class="header">
-            <div class="user-menu">
-                <a href="/login" class="btn">Connexion</a>
-                <a href="/register" class="btn">Inscription</a>
-            </div>
-        </header>
-
-        <!-- Contenu principal -->
-        <main>
-            <div class="content">
-                <h1>Bienvenue sur oToBase</h1>
-                <p>oToBase est votre plateforme tout-en-un pour accéder à des outils puissants et des agents IA intelligents.</p>
-                
-                <section class="features">
-                    <h2>Nos fonctionnalités principales</h2>
-                    <div class="feature-grid">
-                        <div class="feature-card">
-                            <i class="fas fa-tools"></i>
-                            <h3>TOOLS</h3>
-                            <p>Accédez à une suite d'outils de conversion et de traitement de fichiers.</p>
-                        </div>
-                        <div class="feature-card">
-                            <i class="fas fa-robot"></i>
-                            <h3>AGENT</h3>
-                            <p>Utilisez notre agent IA pour automatiser vos tâches quotidiennes.</p>
-                        </div>
-                        <div class="feature-card">
-                            <i class="fas fa-brain"></i>
-                            <h3>AGENT IA</h3>
-                            <p>Exploitez la puissance de l'IA avancée pour des tâches complexes.</p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </main>
+    <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="sidebar-overlay"></div>
+    
+    <div class="sidebar">
+        <div class="logo">
+            <h1>oToBase</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/" class="nav-link active"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="/modules/tools" class="nav-link"><i class="fas fa-tools"></i> TOOLS</a></li>
+                <li><a href="/modules/agent" class="nav-link"><i class="fas fa-robot"></i> AGENT</a></li>
+                <li><a href="/modules/agent-ia" class="nav-link"><i class="fas fa-brain"></i> AGENT IA</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <!-- Scripts -->
+    <div class="top-bar">
+        <h1 class="page-title">Accueil</h1>
+    </div>
+
+    <div class="main-content">
+        <div class="welcome-section">
+            <h1>Bienvenue sur oToBase</h1>
+            <p class="welcome-text">
+                Votre plateforme tout-en-un pour la conversion de fichiers, 
+                l'automatisation des tâches et l'intelligence artificielle.
+            </p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h2>TOOLS</h2>
+                <p>Outils de conversion et de traitement de fichiers</p>
+                <button onclick="location.href='/modules/tools'">Explorer</button>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h2>AGENT</h2>
+                <p>Automatisation des tâches répétitives</p>
+                <button onclick="location.href='/modules/agent'">Explorer</button>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h2>AGENT IA</h2>
+                <p>Intelligence artificielle et traitement avancé</p>
+                <button onclick="location.href='/modules/agent-ia'">Explorer</button>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/js/main.js"></script>
 </body>
 </html>

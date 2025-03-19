@@ -1,1 +1,66 @@
-<h1>Module AGENT</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oToBase - Agent</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/agent.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="sidebar-overlay"></div>
+    
+    <div class="sidebar">
+        <div class="logo">
+            <h1>oToBase</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/" class="nav-link"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="/modules/tools" class="nav-link"><i class="fas fa-tools"></i> TOOLS</a></li>
+                <li><a href="/modules/agent" class="nav-link active"><i class="fas fa-robot"></i> AGENT</a></li>
+                <li><a href="/modules/agent-ia" class="nav-link"><i class="fas fa-brain"></i> AGENT IA</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="top-bar">
+        <h1 class="page-title">Agent</h1>
+    </div>
+
+    <div class="main-content">
+        <div class="agent-features">
+            <div class="feature-card">
+                <i class="fas fa-tasks"></i>
+                <h2>Gestion des Tâches</h2>
+                <p>Automatisez vos tâches répétitives</p>
+                <button onclick="location.href='/modules/agent/tasks'">Configurer</button>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h2>Planification</h2>
+                <p>Planifiez l'exécution de vos tâches</p>
+                <button onclick="location.href='/modules/agent/scheduler'">Planifier</button>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-chart-line"></i>
+                <h2>Monitoring</h2>
+                <p>Suivez l'exécution de vos agents</p>
+                <button onclick="location.href='/modules/agent/monitor'">Surveiller</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
